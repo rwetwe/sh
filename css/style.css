@@ -1,0 +1,353 @@
+/* 
+* @Author: Administrator
+* @Date:   2018-05-14 14:59:26
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-05-16 11:38:50
+*/
+@charset "utf-8";
+body,ul,ol,h1,h2,h3,h4,h5,h6,p,input,select,textarea,dl,dd{margin: 0;padding: 0;}
+ul,ol{list-style: none;}
+input,select,textarea{background-color: transparent; border: none; outline: none;}
+textarea{resize: none;}
+img{border: none; vertical-align: top;}
+a{text-decoration: none;}
+
+.clearfix:after,.clearfix:before{content: "";display: table;}
+.clearfix:after{clear: both;}
+.clearfix{*zoom:1;}
+
+.gwidth{
+	width: 1203px;
+	margin:0px auto;
+	position:relative;
+}
+
+.header_1{
+	height: 42px;
+	width: 100%;
+	background-color: #000000;
+}
+.header_1 .gwidth .nav{
+	margin-left:3px;
+}
+.header_1 .gwidth .nav li{
+	float:left;
+	text-align:center;
+	font-size:12px;
+	line-height:42px;
+	margin-right:34px;
+}
+.header_1 .gwidth .nav .hou{
+	margin-right:0px;
+}
+.header_1 .gwidth .nav li a{
+	color:#5B6170;
+}
+
+.header .gwidth .logo{
+	margin-top:28px;
+	float:left;
+}
+.header .gwidth .sous{
+	border:2px solid #6EB92B;
+	border-radius:20px;
+	height: 34px;
+	width: 513px;
+	margin-top:31px;
+	margin-left:202px;
+}
+.header .gwidth i{
+	font-size:26px;
+	color:#6EB92B;
+	position:absolute;
+	top:36px; left:349px;
+}
+.header .gwidth .sanshu{
+	position:absolute;
+	top:42px; left:739px;
+}
+.header .gwidth .wyz{
+	border:2px solid #6EB92B;
+	border-radius:0px 20px 20px 0px;
+	background-color: #6EB92B;
+	height: 33px;
+	width: 85px;
+	text-align:center;
+	line-height:33px;
+	position:absolute;
+	top:32px; left:761px;
+}
+.header .gwidth .wyz a{
+	color:#fff;
+}
+.header .gwidth span{
+	display:inline-block;
+	background-color: #6EB92B;
+	width: 138px;
+	height: 36px;
+	font-size:12px;
+	text-align:center;
+	line-height:36px;
+	float:right;
+	margin-top:32px;
+	margin-right:52px;
+}
+.header .gwidth span a{
+	color:#fff;
+}
+.header .gwidth .left_1{
+	position:absolute;
+	top:120px; left:3px;
+}
+.header .gwidth .left_1 li{
+	float:left;
+	margin-right:28px;
+}
+.header .gwidth .right_1{
+	float:right;
+	position:absolute;
+	top:120px; left:896px;
+}
+.header .gwidth .right_1 li{
+	float:left;
+	margin-left:28px;
+}
+.header .gwidth .left_1 a{
+	color:#666666;
+}
+.header .gwidth .right_1 a{
+	color:#666666;
+}
+.gwidth .banner{
+	margin-top:78px;
+}
+.nav_1 .gwidth ul{
+}
+.nav_1 .gwidth ul li{
+	margin-top:32px;
+	font-size:16px;
+	margin-right:80px;
+	float:left;
+}
+.nav_1 .gwidth ul .dy{
+	margin-left:91px;
+}
+.nav_1 .gwidth ul .zh{
+	margin-right:71px;
+}
+.nav_1 .gwidth ul li a{
+	color:#45484E;
+}
+.nav_1 .gwidth ul .dy a{
+	color:#5AB00D;
+}
+.nav_1 .gwidth .xl .box1{
+	width: 134px;
+	float:left;
+	margin-right:128px;
+	margin-top:18px;
+}
+.nav_1 .gwidth .xl #box3{
+	width: 134px;
+	float:left;
+	margin-right:128px;
+	margin-left:8px;
+}
+.nav_1 .gwidth .xl #box2{
+	width: 134px;
+	float:left;
+	margin-right:0px;
+}
+.nav_1 .gwidth .xl .box1 ul li{
+	float:left;
+	margin-top:18px;
+}
+.nav_1 .gwidth .xl .box1 ul li{
+	margin-right:19px;
+}
+.nav_1 .gwidth .xl .box1 ul .mw{
+	margin-right:0px;
+}
+.gwidth .guanggao{
+	margin-top:160px;
+}
+.gwidth .xz h4{
+	color:#5BB00D;
+	font-size:22px;
+	margin-top:38px;
+	margin-bottom: 15px;
+}
+.gwidth .xz .left_2{
+	display:inline-block;
+	width: 387px;
+	height: 394px;
+	padding-top:45px;
+	border:1px solid #ccc;
+	text-align:center;
+	margin-right: 19px;
+	display:inline-block;
+	float:left;
+}
+.gwidth .xz .left_2 p{
+	line-height:45px;
+	font-size:18px;
+	color:#fff;
+	background-color: #4C4C4C;
+	margin-top:115px;
+}
+.gwidth .xz ul li{
+	margin-right: 16px;
+	margin-bottom: 11px;
+	float:left;
+}
+.gwidth .xz ul #a3{
+	margin-right: 0px;
+}
+.gwidth .xz ul #a4{
+	margin-bottom: 0px;
+}
+.gwidth .xz ul #a5{
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.gwidth .xz ul li .right_2{
+	width: 252px;
+	height: 214px;
+	border:1px solid #ccc;
+	text-align:center;
+}
+.gwidth .xz ul li .right_2 p{
+	line-height:33px;
+	font-size:16px;
+	color:#fff;
+	background:rgba(0, 0, 0, 0.8);
+}
+.gwidth .rr .rm{
+	float:left;
+}
+.gwidth .rr .rm h4{
+	font-size:24px;
+	color:#5BAF0D;
+	margin-top:28px;
+	display:inline-block;
+}
+.gwidth .rr .rm ul{
+	margin-top:6px;
+}
+.gwidth .rr .rm ul li{
+	height:36px;
+	line-height:36px;
+}
+.gwidth .rr .rm ul li p{
+	display:inline-block;
+	width:472px;
+	font-size:16px;
+	color:#656565;
+}
+.gwidth .rr .rm ul li span{
+	display:inline-block;
+	width: 190px;
+	font-size:16px;
+	color:#999999;
+}
+.gwidth .rr .rm ul li em{
+	font-style:normal;
+	font-size:16px;
+	color:#999999;
+}
+.gwidth .rr .esxz{
+	float:left;
+	margin-left:128px;
+}
+.gwidth .rr .esxz h4{
+	font-size:24px;
+	color:#5BAF0D;
+	margin-top:28px;
+	display:inline-block;
+}
+.gwidth .rr .esxz ul{
+	width: 320px;
+	margin-top:20px;
+}
+.gwidth .rr .esxz ul li{
+	float:left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.gwidth .rr .esxz ul .q1{
+	margin-right:0px;
+}
+.gwidth .rr .esxz ol{
+	margin-top:324px;
+}
+.gwidth .rr .esxz ol li{
+	height:26px;
+	line-height:26px;
+}
+.gwidth .rr .esxz ol li a{
+	font-size:16px;
+	color:#656565;
+}
+.gwidth .qt h4{
+	font-size:24px;
+	color:#5BAF0D;
+	margin-top:26px;
+	margin-bottom: 18px;
+}
+.gwidth .qt ul{
+	width: 1204px;
+}
+.gwidth .qt ul li{
+	float:left;
+	margin-right: 32px;
+	margin-bottom: 32px;
+}
+.gwidth .qt ul .w1{
+	margin-right: 0px;
+}
+.gwidth .qt ul li h5{
+	font-size:16px;
+	color:#656565;
+}
+.gwidth .qt ul li p{
+	margin-top:18px;
+	width: 376px;
+	height: 94px;	
+	line-height:24px;
+	font-size:14px;
+	color:#656565;
+}
+.footer{
+	background-color: #F9F9F9;
+	border-top: 1px solid #E5E5E5;
+	margin-top:344px;
+}
+.footer .gwidth .yqlj h5{
+	margin-top:46px;
+	color:#444444;
+	font-size:16px;
+	margin-bottom: 22px;
+}
+.footer .gwidth .yqlj .p1{
+	font-size:12px;
+	color:#434343;
+	height: 24px;
+	line-height:24px;
+}
+.footer .gwidth .yqlj p a{
+	color:#434343;
+}
+.footer_1 .cen{
+	color:#434343;
+	font-size:12px;
+	text-align:center;
+}
+#ttp{
+	margin-top:54px;
+}
+.footer_1 .cen a{
+	color:#434343;
+}
+#tpp{
+	margin-bottom: 178px;
+}
